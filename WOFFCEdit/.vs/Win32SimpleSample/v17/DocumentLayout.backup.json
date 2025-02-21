@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0BCFE9-F760-43EB-9C31-BBFD23F397D9}|Win32SimpleSample.vcxproj|M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\ToolMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD0BCFE9-F760-43EB-9C31-BBFD23F397D9}|Win32SimpleSample.vcxproj|solutionrelative:ToolMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0BCFE9-F760-43EB-9C31-BBFD23F397D9}|Win32SimpleSample.vcxproj|M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD0BCFE9-F760-43EB-9C31-BBFD23F397D9}|Win32SimpleSample.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToolMain.cpp",
+              "DocumentMoniker": "M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\ToolMain.cpp",
+              "RelativeDocumentMoniker": "ToolMain.cpp",
+              "ToolTip": "M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\ToolMain.cpp",
+              "RelativeToolTip": "ToolMain.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T12:14:43.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "M:\\Year_4\\CMP405\\Week4\\WFFC-Edit\\WOFFCEdit\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T12:14:30.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

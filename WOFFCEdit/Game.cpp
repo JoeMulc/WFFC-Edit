@@ -137,7 +137,7 @@ void Game::Tick(InputCommands *Input)
     Render();
 }
 
-// Updates the world.
+// Updates the world. test
 void Game::Update(DX::StepTimer const& timer)
 {
 	//TODO  any more complex than this, and the camera should be abstracted out to somewhere else

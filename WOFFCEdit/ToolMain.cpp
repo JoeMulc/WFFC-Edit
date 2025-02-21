@@ -18,6 +18,7 @@ ToolMain::ToolMain()
 	m_toolInputCommands.back		= false;
 	m_toolInputCommands.left		= false;
 	m_toolInputCommands.right		= false;
+	m_toolInputCommands.cameraActive = true;
 	
 }
 
@@ -312,42 +313,51 @@ void ToolMain::UpdateInput(MSG * msg)
 		//set some flag for the mouse button in inputcommands
 		break;
 
+	case WM_RBUTTONDOWN:
+		if (flipFlop) m_toolInputCommands.cameraActive = true, flipFlop = false;
+		else m_toolInputCommands.cameraActive = false, flipFlop = true;
+		
+		break;
 	}
 	//here we update all the actual app functionality that we want.  This information will either be used int toolmain, or sent down to the renderer (Camera movement etc
-	//WASD movement
-	if (m_keyArray['W'])
-	{
-		m_toolInputCommands.forward = true;
-	}
-	else m_toolInputCommands.forward = false;
-	
-	if (m_keyArray['S'])
-	{
-		m_toolInputCommands.back = true;
-	}
-	else m_toolInputCommands.back = false;
-	if (m_keyArray['A'])
-	{
-		m_toolInputCommands.left = true;
-	}
-	else m_toolInputCommands.left = false;
 
-	if (m_keyArray['D'])
+	if (m_toolInputCommands.cameraActive)
 	{
-		m_toolInputCommands.right = true;
+		//WASD movement
+		if (m_keyArray['W'])
+		{
+			m_toolInputCommands.forward = true;
+		}
+		else m_toolInputCommands.forward = false;
+
+		if (m_keyArray['S'])
+		{
+			m_toolInputCommands.back = true;
+		}
+		else m_toolInputCommands.back = false;
+		if (m_keyArray['A'])
+		{
+			m_toolInputCommands.left = true;
+		}
+		else m_toolInputCommands.left = false;
+
+		if (m_keyArray['D'])
+		{
+			m_toolInputCommands.right = true;
+		}
+		else m_toolInputCommands.right = false;
+		//rotation
+		if (m_keyArray['E'])
+		{
+			m_toolInputCommands.rotRight = true;
+		}
+		else m_toolInputCommands.rotRight = false;
+		if (m_keyArray['Q'])
+		{
+			m_toolInputCommands.rotLeft = true;
+		}
+		else m_toolInputCommands.rotLeft = false;
 	}
-	else m_toolInputCommands.right = false;
-	//rotation
-	if (m_keyArray['E'])
-	{
-		m_toolInputCommands.rotRight = true;
-	}
-	else m_toolInputCommands.rotRight = false;
-	if (m_keyArray['Q'])
-	{
-		m_toolInputCommands.rotLeft = true;
-	}
-	else m_toolInputCommands.rotLeft = false;
 
 	//WASD
 }

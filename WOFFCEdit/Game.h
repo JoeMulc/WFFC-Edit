@@ -31,6 +31,9 @@ public:
 	void Tick(InputCommands * Input);
 	void Render();
 
+	int MousePicking();
+	RECT m_ScreenDimensions;
+
 	// Rendering helpers
 	void Clear();
 

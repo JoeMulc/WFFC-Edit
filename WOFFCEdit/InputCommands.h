@@ -9,4 +9,7 @@ struct InputCommands
 	bool rotRight;
 	bool rotLeft;
 	bool cameraActive;
+	int mouse_x;
+	int mouse_y;
+	bool mouse_LB_Down;
 };
